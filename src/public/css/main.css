@@ -1,0 +1,53 @@
+#logo{
+   height: 60px;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+#heat{
+    height: 80px;
+    background-color: #a9dcef;
+}
+#barra{
+    width: 70%;
+   margin-left: 10%;
+}
+#busqueda{
+    margin-top: 20px;
+}
+#btnbusqueda{
+    border: 1px solid #003279;
+    background-color: #1883ba;;
+    color: #ffffff;
+}
+#btnbusqueda:hover{
+    background-color: #a9dcef;
+    color: black;
+}
+#carrito{
+    height: 30px;
+}
+#carrsection{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#navi{
+   background-color: rgb(158, 158, 158);
+}
+#navi2{
+    height: 30px;
+    width: 100%;
+}
+.itemsnavi{
+margin-left: 10%;
+}
+.seccion{
+    margin-top: 20px;
+    background-color: #a9dcef;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom:solid 1px grey;
+  width:100%;
+}
+.cardimg{
+    height: 200px;
+}
