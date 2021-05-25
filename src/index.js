@@ -5,7 +5,7 @@ const path= require('path');
 
 //configurar el servidor
 app.set('port', 4000);
-app.set('views', path.join(__dirname, 'views/'));
+app.set('views', __dirname);
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
