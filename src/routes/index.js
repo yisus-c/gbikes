@@ -7,5 +7,8 @@ router.get('/', (req, res) =>{
     res.render('index.html');
     
 });
-
+router.get('/giant', (req, res) =>{
+    res.render('views/giant.html');
+    
+});
 module.exports = router;
