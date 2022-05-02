@@ -34,21 +34,28 @@
 <!--Formulario-->
 <div class="container p-4">
     <div class="row">
+        <div class="col-12 ml-auto">
+            <a href="/admin">
+                Regresar
+            </a>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-4 mx-auto">
             <div class="card">
                 <div class="card-body">
                    <form action="/admin/add" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" name="clave" placeholder="Clave" autofocus required pattern="[A-Za-z0-9]{5,20}"> 
+                            <input type="text" class="form-control" name="clave" placeholder="Clave" autofocus required pattern="{5,20}"> 
                          </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="nombre" placeholder="Nombre" required pattern="[A-Za-z0-9]{5,150}">
+                            <input type="text" class="form-control" name="nombre" placeholder="Nombre" required pattern="{5,150}">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="marca" placeholder="Marca" required pattern="[A-Za-z0-9]{5,20}">
+                            <input type="text" class="form-control" name="marca" placeholder="Marca" required pattern="{5,20}">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="categoria" placeholder="Categoria" required pattern="[A-Za-z0-9]{5,20}">
+                            <input type="text" class="form-control" name="categoria" placeholder="Categoria" required pattern="{5,20}">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" name="precio" placeholder="Precio" required maxlength="30">
